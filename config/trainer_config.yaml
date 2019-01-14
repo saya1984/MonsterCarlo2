@@ -15,7 +15,7 @@ default:
     num_layers: 2
     time_horizon: 64
     sequence_length: 64
-    summary_freq: 1000
+    summary_freq: 10
     use_recurrent: false
     use_curiosity: false
     curiosity_strength: 0.01
@@ -247,12 +247,12 @@ BasicBrain:
 StudentBrain:
     trainer: imitation
     max_steps: 10000
-    summary_freq: 1000
+    summary_freq: 10
     brain_to_imitate: TeacherBrain
-    batch_size: 16
+    batch_size: 1
     batches_per_epoch: 5
     num_layers: 4
-    hidden_units: 64
+    hidden_units: 8
     sequence_length: 16
     buffer_size: 128
 

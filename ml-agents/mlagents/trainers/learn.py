@@ -7,8 +7,8 @@ import multiprocessing
 import numpy as np
 from docopt import docopt
 
-from .trainer_controller import TrainerController
-from .exception import TrainerError
+from trainer_controller import TrainerController
+from exception import TrainerError
 
 
 def run_training(sub_id, run_seed, run_options):
