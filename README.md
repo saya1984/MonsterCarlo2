@@ -2,6 +2,16 @@
 
 <img src="docs/images/image-banner.png" align="middle" width="3000"/>
 
+#############################################
+This repo will eventually have my implementation
+of Alpha-Go inspired MCTS+NN(via Unity's ML Agents)
+framework for playtesting games made in Unity.
+I got it working and all, but I'm still cleaning up the code
+and writing documentation, so the current code here is hardly
+useable. Please check in in a month or so orz.
+##############################################
+
+
 # Unity ML-Agents Toolkit (Beta)
 
 **The Unity Machine Learning Agents Toolkit** (ML-Agents) is an open-source
